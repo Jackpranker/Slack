@@ -1,0 +1,93 @@
+body {
+    margin: 0 auto;
+    width: 60%;
+    line-height: 1.7;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 47px;
+    opacity: 80%;
+}
+
+h2 {
+    font-size: 40px;
+    padding-left: 0.3em;
+}
+
+.image {
+    width: 90px;
+    height: 100px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main_content {
+    text-align: center;
+    margin-top: -4rem;
+}
+
+.main1 {
+    margin: auto;
+}
+
+.ttt {
+    font-size: 20px;
+    margin-top: -2rem;
+}
+
+.sing_in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sing_in input {
+    width: 40%;
+    padding: 1em 0em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.continue:hover {
+    background-color: rgb(22, 128, 155);
+    text-decoration: none;
+    color: rgb(70, 11, 235);
+}
+
+.kalf {
+    margin-left: 50px;
+    display: flex;
+}
+
+.kalf_content {
+    padding: 0em 2em;
+}
+
+.whole_Content {
+    height: 100vh;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    background-color: rgba(230, 231, 230, 0.377);
+    border-style: unset;
+}
+
+.sing_in a {
+    text-decoration: none;
+}
